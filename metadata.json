@@ -1,0 +1,8 @@
+{
+  "name": "ChatVault",
+  "description": "Recover deleted WhatsApp chats and media locally on your device, with Gemini AI chat assistance and image studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ChatVault</string>
+    <string name="notification_listener_label">ChatVault Deleted Message Listener</string>
+
+    <!-- Navigation -->
+    <string name="nav_chats">Chats</string>
+    <string name="nav_lookup">Lookup</string>
+    <string name="nav_media">Media</string>
+    <string name="nav_assistant">AI Chat</string>
+    <string name="nav_studio">Studio</string>
+
+    <!-- Dashboard & Status -->
+    <string name="vault_tagline">On-Device Deleted Chat &amp; Media Recovery</string>
+    <string name="status_listener_active">Message Listener Active</string>
+    <string name="status_listener_inactive">Listener Permission Needed</string>
+    <string name="status_folder_linked">Media Folder Linked</string>
+    <string name="status_folder_unlinked">Link WhatsApp Media Folder</string>
+    <string name="action_enable_listener">Enable Listener</string>
+    <string name="action_link_folder">Select Folder</string>
+    <string name="action_sync_now">Sync Vault</string>
+    <string name="action_import_photo">Import Photo</string>
+    <string name="action_test_capture">Test Capture</string>
+
+    <!-- Chats Screen -->
+    <string name="search_chats_hint">Search recovered chats or messages…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_deleted_only">Deleted Only</string>
+    <string name="badge_deleted_caught">Deleted Message Caught</string>
+    <string name="empty_chats_title">Your Recovery Vault is Ready</string>
+    <string name="empty_chats_body">Enable Notification Access above so ChatVault can archive incoming WhatsApp messages before anyone deletes them. You can also send a live diagnostic notification to verify capture immediately.</string>
+    <string name="action_export_chat">Export Chat</string>
+    <string name="action_analyze_with_ai">Analyze with AI</string>
+    <string name="action_delete_thread">Clear Thread</string>
+
+    <!-- Media Screen -->
+    <string name="media_filter_all">All Cached</string>
+    <string name="media_filter_recovered">Deleted &amp; Recovered</string>
+    <string name="badge_recovered_media">Recovered</string>
+    <string name="empty_media_title">No Cached Media Yet</string>
+    <string name="empty_media_body">Link your device\'s WhatsApp Media folder (e.g. Android/media/com.whatsapp/WhatsApp/Media) to automatically mirror incoming photos before they are deleted, or import photos via Photo Picker.</string>
+    <string name="action_save_to_gallery">Save to Gallery</string>
+    <string name="action_share_item">Share</string>
+    <string name="action_enhance_in_studio">Enhance in Studio</string>
+
+    <!-- AI Assistant Screen -->
+    <string name="ai_chat_title">Gemini Recovery Assistant</string>
+    <string name="ai_chat_input_hint">Ask about recovered chats, translations, or recovery help…</string>
+    <string name="ai_chat_clear">New Thread</string>
+    <string name="ai_chat_empty_title">Ask Gemini About Your Vault</string>
+    <string name="ai_chat_empty_body">Switch models for fast summaries, general recovery help, complex replies, or deep forensic reasoning.</string>
+
+    <!-- AI Image Studio Screen -->
+    <string name="studio_title">Gemini Image Studio</string>
+    <string name="studio_subtitle">Powered by gemini-nano-banana-2.1</string>
+    <string name="studio_prompt_hint">Describe an image to generate or how to restore/enhance your selected photo…</string>
+    <string name="studio_size_label">Output Resolution</string>
+    <string name="studio_ratio_label">Aspect Ratio</string>
+    <string name="studio_generate_button">Generate High-Res Image</string>
+    <string name="studio_generating_hint">Synthesizing image with gemini-nano-banana-2.1 (30–60s)…</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Recovery &amp; Privacy Settings</string>
+    <string name="cd_vault_hero">ChatVault security banner</string>
+    <string name="cd_empty_illustration">Empty recovery vault illustration</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_settings">Open settings</string>
+</resources>
